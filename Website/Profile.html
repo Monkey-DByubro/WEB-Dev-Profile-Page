@@ -9,6 +9,50 @@
     <link rel="stylesheet" href="styles.css">
     <!--API for the titles font-->
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!--Page specific style-->
+    <style>
+        main{
+            height: 500px;
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .PageButton{
+            height: 300px;
+            width: 270px;
+            border-radius: 10px;
+            background-color: #eee9e9;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+            display: flex;
+            flex-direction: column;
+            
+
+            
+        }
+        /*When arrow hovers at the button. it transforms*/
+        .PageButton:hover{
+            transform: translateY(-5px);
+            transition: 0.2s;
+        }
+        .PageButton ul{
+            text-align: left;
+            padding-left: 20px;
+        }
+        .ButtonHeader{
+            height:40px;
+            border-bottom: 2px solid black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            
+        }
+    </style>
 </head>
 <body>
     <header id="header">
@@ -25,7 +69,26 @@
         <a href="https://www.linkedin.com/in/tyrell-lang-siu-2992b43b7/" id="contacts">LinkedIn</a>
     </footer>
     <main>
-        
+        <button class="PageButton">
+            <div class="ButtonHeader">
+                <h4>Qualifications</h4>
+            </div>
+            <ul>
+                <li>Information Technology</li>
+                <li>Engineering</li>
+                <li>Security Operations</li>
+            </ul>
+        </button>
+        <button class="PageButton">
+            <div class="ButtonHeader">
+                <h4>Projects</h4>
+            </div>
+        </button>
+        <button class="PageButton">
+            <div class="ButtonHeader">
+                <h4>Experiences</h4>
+            </div>
+        </button>
     </main>
     
 </body>
