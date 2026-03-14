@@ -1,0 +1,73 @@
+{
+    "courses": [
+        {
+            "courseCode": "ICT30120",
+            "courseTitle": "Certificate III in Information Technology",
+            "courseProvider": "TAFE NSW Mount Druitt Campus",
+            "dateOfCompletion": "20/06/2025",
+            "courseStatus": "Competent",
+            "units": [
+                {
+                    "unitCode": "ICTPRG302",
+                    "unitTitle": "Apply introductory programming techniques",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBCRT301",
+                    "unitTitle": "Develop and extend critical and creative thinking skills",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTICT313",
+                    "unitTitle": "Identify IP, ethics and privacy policies in ICT environments",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBXCS302",
+                    "unitTitle": "Identify and report online security threats",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTNWK311",
+                    "unitTitle": "Install and test network protocols",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTSAS310",
+                    "unitTitle": "Install, configure and secure a small office or home office network",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBXCS301",
+                    "unitTitle": "Protect own personal online profile from cyber security threats",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTSAS305",
+                    "unitTitle": "Provide ICT advice to clients",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTSAS312",
+                    "unitTitle": "Provide basic system administration",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTNWK307",
+                    "unitTitle": "Provide network systems administration",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBXCS303",
+                    "unitTitle": "Securely manage personally identifiable information and workplace information",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBXTW301",
+                    "unitTitle": "Work in a team",
+                    "unitStatus": "Competent"
+                }
+            ]
+        }
+    ]
+}
