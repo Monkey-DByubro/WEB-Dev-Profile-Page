@@ -6,20 +6,30 @@
     <title>Qualifications</title>
     <!--External Style Sheet-->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="course.css">
     <!--API for title fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <!--Internal StyleSheet-->
     <style>
         main{
+            
             flex: 1;
-
+            width: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
+            padding-top: 20px;
             gap: 40px;
+
+            background-color: #f2f2f2;
 
             overflow-y: auto;
         }
+
+        
+
+         
+        
     </style>
 </head>
 <body>
@@ -41,8 +51,9 @@
     <div id="backFooter">
         <button onclick="location.href='Profile.html'"></button>
     </div>
+    <div>Courses</div>
     <main>
     </main>
-    <script src="./Data/fetch.js"></script>
+    <script src="./Data-Handling/fetch.js"></script>
 </body>
 </html>
