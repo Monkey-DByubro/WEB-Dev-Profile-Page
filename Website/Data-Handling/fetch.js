@@ -2,7 +2,7 @@
 
 let coursesData = []
 //requests the file
-fetch("./Data-Handling/course.json")
+fetch("../Data-Handling/course.json")
 //convert response to json
 .then(res => res.json())
 //use the data
@@ -37,12 +37,12 @@ function renderCourses(courses) {
         if (course.courseStatus === "Competent")
         {
             courseStatus.classList.add("Competent");
-            courseStatus.src = "./Images/Competent.png";
+            courseStatus.src = "../Images/Competent.png";
         }
         else if (course.courseStatus === "Incomplete")
         {
             courseStatus.classList.add("Incomplete");
-            courseStatus.src = "./Images/Incomplete.png";
+            courseStatus.src = "../Images/Incomplete.png";
         }
         //courseProvider
         const courseProvider = document.createElement("h4");
@@ -80,12 +80,12 @@ function renderCourses(courses) {
             if (units.unitStatus === "Competent")
             {
                 unitStatus.classList.add("Competent");
-                unitStatus.src = "./Images/Competent.png"
+                unitStatus.src = "../Images/Competent.png"
             }
             else if (units.unitStatus === "Incomplete")
             {
                 unitStatus.classList.add("Incomplete");
-                unitStatus.src = "./Images/Incomplete.png";
+                unitStatus.src = "../Images/Incomplete.png";
             }
 
             unitCard.appendChild(unitCode);
