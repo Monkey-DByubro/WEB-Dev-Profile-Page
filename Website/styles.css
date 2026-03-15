@@ -69,3 +69,34 @@ header {
     font-size: 12px;
     margin: 1px;
 }
+.backButton {
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/Back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.backButton:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+.searchDiv {
+    height: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    height: 40px;
+    width: 90%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}

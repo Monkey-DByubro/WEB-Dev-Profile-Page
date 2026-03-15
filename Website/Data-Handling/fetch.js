@@ -1,11 +1,18 @@
+let coursesData = []
 //requests the file
 fetch("./Data-Handling/course.json")
 //convert response to json
 .then(res => res.json())
 //use the data
 .then(data => {
+    coursesData = data.courses;
+    renderCourses(coursesData);
+});
+// render courses function
+function renderCourses(courses) {
     const main = document.querySelector("main");
-    data.courses.forEach(course => {
+    main.innerHTML = "";
+    courses.forEach(course => {
         //courseCard
         const courseCard = document.createElement("div");
         courseCard.classList.add("courseCard")
@@ -88,5 +95,16 @@ fetch("./Data-Handling/course.json")
 
         main.appendChild(courseCard);
     });
-    
+}
+//search filter
+document.getElementById("searchBar").addEventListener("input", function () {
+    const searchValue = this.value.toLowerCase();
+
+    const filteredCourses = coursesData.filter(course =>
+        course.courseCode.toLowerCase().includes(searchValue) ||
+        course.courseTitle.toLowerCase().includes(searchValue) ||
+        course.courseProvider.toLowerCase().includes(searchValue)
+    );
+
+    renderCourses(filteredCourses);
 });
