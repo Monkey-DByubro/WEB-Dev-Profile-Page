@@ -86,12 +86,13 @@ header {
     transition: 0.2s;
 }
 .searchDiv {
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .search {
     height: 40px;
@@ -99,4 +100,14 @@ header {
     color: black;
     background-color: white;
     border-radius: 10px;
+}
+.filters {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+.filters select {
+    padding: 6px;
+    border-radius: 6px;
 }

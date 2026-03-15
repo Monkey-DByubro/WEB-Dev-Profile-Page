@@ -3,6 +3,8 @@
         {
             "courseCode": "ICT30120",
             "courseTitle": "Certificate III in Information Technology",
+            "courseType": "Certificate",
+            "courseSubject": "Information Technology",
             "courseProvider": "TAFE NSW Mount Druitt Campus",
             "dateOfCompletion": "2025-06-20",
             "courseStatus": "Competent",
@@ -70,8 +72,46 @@
             ]
         },
         {
+            "courseCode": "SITSS00071",
+            "courseTitle": "Statement of Attainment in Responsible Service of Alcohol",
+            "courseType": "Statement of Attainment",
+            "courseSubject": "Hospitality",
+            "dateOfCompletion": "2025-10-09",
+            "courseStatus": "Competent",
+            "units": [
+                {
+                    "unitCode": "SITHFAB021",
+                    "unitTitle": "Provide responsible service of alcohol",
+                    "unitStatus": "Competent"
+                }
+            ]
+        },
+        {
+            "courseCode": "901-00036",
+            "courseTitle": "Statement of Attainment in Apply First AID and CPR",
+            "courseType": "Statement of Attainment",
+            "courseSubject": "Hospitality",
+            "courseProvider": "Star Training Academy Granville Campus",
+            "dateOfCompletion": "2025-10-01",
+            "courseStatus": "Competent",
+            "units": [
+                {
+                    "unitCode": "HLTAID011",
+                    "unitTitle": "Provide First Aid",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "HLTAID009",
+                    "unitTitle": "Provide cardiopulmonary resuscitation",
+                    "unitStatus": "Competent"
+                }
+            ]
+        },
+        {
             "courseCode": "ICT40120",
             "courseTitle": "Certificate IV in Information Technology",
+            "courseType": "Certificate",
+            "courseSubject": "Information Technology",
             "courseProvider": "TAFE NSW Granville Campus",
             "dateOfCompletion": "2025-12-05",
             "courseStatus": "Competent",
@@ -174,8 +214,86 @@
             ]
         },
         {
+            "courseCode": "CPP20218",
+            "courseTitle": "Certificate II in Security Operations",
+            "courseType": "Certificate",
+            "courseSubject": "Hospitality",
+            "courseProvider": "Star Training Academy Granville Campus",
+            "dateOfCompletion": "2025-12-30",
+            "courseStatus": "Competent",
+            "units": [
+                {
+                    "unitCode": "CCPSEC2101",
+                    "unitTitle": "Apply effective communication skills to maintain security",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2102",
+                    "unitTitle": "Apply legal and procedural requirements to work effectively within a security team",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2103",
+                    "unitTitle": "Apply WHS, emergency response and evacuation procedures to maintain security",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2104",
+                    "unitTitle": "Apply risk assessment to select and carry out response to security risk situations",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2105",
+                    "unitTitle": "Provide quality services to a range of security clients",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2106",
+                    "unitTitle": "Protect self and others using basic defensive techniques",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2107",
+                    "unitTitle": "Patrol premises to monitor property and maintain security",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2108",
+                    "unitTitle": "Screen people, personal effects and items to maintain security",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2109",
+                    "unitTitle": "Monitor and control access and exit of persons and vehicles from premises",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2110",
+                    "unitTitle": "Monitor and control individual and crowd behaviour to maintain security",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2111",
+                    "unitTitle": "Apply security procedures to manage intoxicated persons",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2112",
+                    "unitTitle": "Apply security procedures to remove persons from premises",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "CPPSEC2113",
+                    "unitTitle": "Escort and protect persons and valuables",
+                    "unitStatus": "Competent"
+                }
+            ]
+        },
+        {
             "courseCode": "ICT50220",
             "courseTitle": "Diploma of Information Technology",
+            "courseType": "Diploma",
+            "courseSubject": "Information Technology",
             "courseProvider": "TAFE NSW Granville Campus",
             "dateOfCompletion": "2026-06-19",
             "courseStatus": "Incomplete",

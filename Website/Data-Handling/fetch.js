@@ -1,3 +1,5 @@
+
+
 let coursesData = []
 //requests the file
 fetch("./Data-Handling/course.json")
@@ -96,15 +98,30 @@ function renderCourses(courses) {
         main.appendChild(courseCard);
     });
 }
+
 //search filter
-document.getElementById("searchBar").addEventListener("input", function () {
-    const searchValue = this.value.toLowerCase();
+function applyFilters() {
+    const searchValue = document.getElementById("searchBar").value.toLowerCase();
+    const typeValue = document.getElementById("typeFilter").value;
+    const subjectValue = document.getElementById("subjectFilter").value;
 
-    const filteredCourses = coursesData.filter(course =>
-        course.courseCode.toLowerCase().includes(searchValue) ||
-        course.courseTitle.toLowerCase().includes(searchValue) ||
-        course.courseProvider.toLowerCase().includes(searchValue)
-    );
+    const filteredCourses = coursesData.filter(course => {
+        const matchesSearch =
+            course.courseCode.toLowerCase().includes(searchValue) ||
+            course.courseTitle.toLowerCase().includes(searchValue) ||
+            course.courseProvider.toLowerCase().includes(searchValue);
 
+        const matchesType =
+            typeValue === "all" || course.courseType === typeValue;
+
+        const matchesSubject =
+            subjectValue === "all" || course.courseSubject === subjectValue;
+
+        return matchesSearch && matchesType && matchesSubject;
+    });
     renderCourses(filteredCourses);
-});
+}
+
+document.getElementById("searchBar").addEventListener("input", applyFilters);
+document.getElementById("typeFilter").addEventListener("change", applyFilters);
+document.getElementById("subjectFilter").addEventListener("change", applyFilters);
