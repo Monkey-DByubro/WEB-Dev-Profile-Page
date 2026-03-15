@@ -12,24 +12,38 @@
     <!--Internal StyleSheet-->
     <style>
         main{
-            
             flex: 1;
             width: 100%;
             display: flex;
-            align-items: flex-start;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
+
+            gap: 20px; 
             padding-top: 20px;
-            gap: 40px;
-
             background-color: #f2f2f2;
-
             overflow-y: auto;
         }
+        .Legend{
+            width:100%;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            position: relative;
+            
 
-        
-
-         
-        
+            background-color: #f2f2f2;
+            font-family: 'Inter', sans-serif;
+        }
+        .LegendText{
+            position: absolute;
+            left:40px;
+        }
+        .LegendContent{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
     </style>
 </head>
 <body>
@@ -51,9 +65,19 @@
     <div id="backFooter">
         <button onclick="location.href='Profile.html'"></button>
     </div>
-    <div>Courses</div>
+    <div class="Legend">
+        <p class="LegendText">Legend: </p>
+        <div class="LegendContent">
+            <span>Competent</span>
+            <img src="./Images/Competent.png" class="Competent">
+            <span>Incomplete</span>
+            <img src="./Images/Incomplete.png" class="Incomplete">
+        </div>
+    </div>
     <main>
     </main>
-    <script src="./Data-Handling/fetch.js"></script>
+    <script src="./Data-Handling/fetch.js">
+        
+    </script>
 </body>
 </html>

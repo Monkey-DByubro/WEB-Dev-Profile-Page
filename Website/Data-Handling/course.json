@@ -68,6 +68,219 @@
                     "unitStatus": "Competent"
                 }
             ]
+        },
+        {
+            "courseCode": "ICT40120",
+            "courseTitle": "Certificate IV in Information Technology",
+            "courseProvider": "TAFE NSW Granville Campus",
+            "dateOfCompletion": "2025-12-05",
+            "courseStatus": "Competent",
+            "units": [
+                {
+                    "unitCode": "BSBCRT404",
+                    "unitTitle": "Apply advanced critical thinking to work processes",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "BSBXCS404",
+                    "unitTitle": "Contribute to cyber security risk management",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTDBS416",
+                    "unitTitle": "Create basic relational databases",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTICT426",
+                    "unitTitle": "Identify and evaluate emerging technologies and practices",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTICT443",
+                    "unitTitle": "Work collaboratively in the ICT industry",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTICT449",
+                    "unitTitle": "Use version control systems in development environments",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTICT451",
+                    "unitTitle": "Comply with IP, ethics and privacy policies in ICT environments",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG430",
+                    "unitTitle": "Apply introductory object-oriented language skills",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG431",
+                    "unitTitle": "Apply query language in relational databases",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG433",
+                    "unitTitle": "Test software developments",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG436",
+                    "unitTitle": "Develop mobile applications",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG437",
+                    "unitTitle": "Build a user interface",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG439",
+                    "unitTitle": "Use pre-existing components",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG440",
+                    "unitTitle": "Apply introductory programming skills in different languages",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG441",
+                    "unitTitle": "Apply skills in object-oriented design",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG444",
+                    "unitTitle": "Analyse software requirements",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTSAS432",
+                    "unitTitle": "Identify and resolve client ICT problems",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTPRG432",
+                    "unitTitle": "Develop data-driven applications",
+                    "unitStatus": "Competent"
+                },
+                {
+                    "unitCode": "ICTWEB431",
+                    "unitTitle": "Create and style simple markup language documents",
+                    "unitStatus": "Competent"
+                }
+            ]
+        },
+        {
+            "courseCode": "ICT50220",
+            "courseTitle": "Diploma of Information Technology",
+            "courseProvider": "TAFE NSW Granville Campus",
+            "dateOfCompletion": "2026-06-19",
+            "courseStatus": "Incomplete",
+            "units": [
+                {
+                    "unitCode": "BSBCRT512",
+                    "unitTitle": "Originate and develop concepts",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "BSBXCS402",
+                    "unitTitle": "Promote workplace cyber security awareness and best practices",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "BSBXTW401",
+                    "unitTitle": "Lead and facilitate a team",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTCLD507",
+                    "unitTitle": "Build and deploy resources on cloud platforms",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                   "unitCode": "ICTDBS506",
+                   "unitTitle": "Design databases",
+                   "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTICT430",
+                    "unitTitle": "Apply software development methodologies",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTICT517",
+                    "unitTitle": "Match ICT needs with the strategic direction of the organisation",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTICT532",
+                    "unitTitle": "Apply IP, ethics and privacy in ICT environments",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG443",
+                    "unitTitle": "Apply intermediate programming skills in different languages",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG530",
+                    "unitTitle": "Manage projects using software management tools",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG532",
+                    "unitTitle": "Apply advanced object-oriented language skills",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG535",
+                    "unitTitle": "Build advanced user interfaces",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG547",
+                    "unitTitle": "Apply advanced programming skills in another language",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG549",
+                    "unitTitle": "Apply intermediate object-oriented language skills",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG553",
+                    "unitTitle": "Create and develop REST APIs",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG554",
+                    "unitTitle": "Manage data persistence using noSQL data stores",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG555",
+                    "unitTitle": "Implement Object Relational Mapping Framework for data persistence",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG556",
+                    "unitTitle": "Implement and use a model view controller framework",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTPRG603",
+                    "unitTitle": "Develop advanced mobile multi-touch applications",
+                    "unitStatus": "Incomplete"
+                },
+                {
+                    "unitCode": "ICTSAS527",
+                    "unitTitle": "Manage client problems",
+                    "unitStatus": "Incomplete"
+                }
+            ]
         }
     ]
 }
